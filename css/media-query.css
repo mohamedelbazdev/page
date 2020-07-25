@@ -1,0 +1,120 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 767px) {
+    .navbar-nav>li>a {
+        padding: 10px 20px 10px 20px;
+        background: #fff;
+    }
+    .navbar-nav .dropdown-toggle {padding-bottom: 10px;}
+
+    .navbar-nav .open .dropdown-menu {
+        background: #fff;
+        border-bottom: 3px solid var(--main-color);
+    }
+}
+
+@media (max-width: 460px) {
+    .slide-show .carousel-caption h1 {
+        font-size: 18px;
+        margin-top: -5px;
+    }
+
+    .contact {min-height: 850px;}
+
+    .contact .info {
+        width: 50%;
+        top: -7%;
+        left: 25%;
+    }
+    .contact .form-position {
+        width: 70%;
+        padding-top: 35%;
+        left: 18%;
+    }
+    .contact .form-position .textarea .line {width: 90%;}
+
+    .contact .form-position .logo {
+        bottom: 5%;
+        left: 10%;
+    }
+    .contact .form-position .form-group .line,
+    .contact .form-position .form-group .text {
+        left: 7px;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 461px) and (max-width: 767px) {
+
+    .slide-show .carousel-caption h1 {
+        font-size: 34px;
+        margin-top: 0;
+    }
+
+    .contact {min-height: 850px;}
+
+    .contact .info {
+        width: 50%;
+        top: -7%;
+        left: 25%;
+    }
+
+    .contact .form-position {
+        width: 70%;
+        padding-top: 20%;
+        left: 18%;
+    }
+
+    .contact .form-position .textarea .line {width: 90%;}
+
+    .contact .form-position .logo {
+        bottom: 5%;
+        left: 10%;
+    }
+
+    .contact .form-position input[type="submit"] {
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .slide-show .carousel-caption h1 {
+        font-size: 44px;
+        margin-top: 15px;
+    }
+    
+    .contact {min-height: 850px;}
+
+    .contact .info {
+        width: 50%;
+        top: -7%;
+        left: 25%;
+    }
+
+    .contact .form-position {
+        width: 70%;
+        padding-top: 15%;
+        left: 18%;
+    }
+
+    .contact .form-position .textarea .line {width: 90%;}
+
+    .contact .form-position .logo {
+        bottom: 5%;
+        left: 10%;
+    }
+
+    .contact .form-position input[type="submit"] {
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+}
+
+
